@@ -3,6 +3,7 @@
 extern crate rand;
 
 mod dencker;
+mod interface;
 
 fn main() {
 }
