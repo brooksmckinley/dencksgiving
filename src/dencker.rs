@@ -49,6 +49,9 @@ impl Dencker {
     pub fn get_score(&self) -> i32 {
         self.current_score
     }
+    pub fn get_stress(&self) -> i32 {
+        self.current_points
+    }
 }
 
 pub enum Food {
